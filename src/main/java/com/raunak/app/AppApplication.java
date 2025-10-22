@@ -8,6 +8,10 @@ public class AppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AppApplication.class, args);
+		dev obj=new dev();
+		obj.build();
+
+
 	}
 
 }
