@@ -6,9 +6,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class dev {
     @Autowired
-    private laptop lap;
+    private computer comp;
     public void build(){
-        lap.compile();  
+        comp.compile();  
         System.out.println("working on awesome project");
 
     }
